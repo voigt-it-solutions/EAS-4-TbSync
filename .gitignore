@@ -15,6 +15,12 @@ __pycache__
 !.npmrc
 !.prettierignore
 !.github/
+# Fork addition: the project's Claude skills ship with the repository, so a
+# fresh checkout can be worked on; Claude's local settings in .claude/ stay
+# out of it.
+!.claude/
+.claude/*
+!.claude/skills/
 
 # Event-log captures from suite runs - the wire for a failing run is the
 # only evidence an intermittent bug leaves, so they are kept, but they are
