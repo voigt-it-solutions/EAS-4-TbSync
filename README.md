@@ -1,5 +1,25 @@
 # EAS-4-TbSync
 
+> [!IMPORTANT]
+> **This is an unofficial fork with unofficial builds.**
+>
+> It is not the official EAS-4-TbSync, and it is not released, reviewed or endorsed
+> by the upstream maintainer. The official project is
+> [jobisoft/EAS-4-TbSync](https://github.com/jobisoft/EAS-4-TbSync).
+>
+> The `compat` branch of this fork only carries compatibility fixes from
+> upstream pull requests, so EAS-4-TbSync keeps working on Thunderbird releases the
+> official version does not support yet. What a build contains and how to
+> verify a download is described in [COMPAT.md](COMPAT.md).
+>
+> - **No warranty.** The builds are provided "as is", without warranty of any
+>   kind. Liability is excluded to the extent permitted by applicable law, as
+>   set out in sections 6 and 7 of the [Mozilla Public License 2.0](LICENSE).
+> - **No support.** We do not offer support for these builds.
+> - **Do not report problems with these builds upstream.**
+> - As soon as an official release supports your Thunderbird version, use that
+>   instead.
+
 This provider add-on adds Exchange ActiveSync (EAS v2.5, v14.0, 14.1 & v16.1) synchronization capabilities to [TbSync](https://github.com/jobisoft/TbSync/).
 
 More information can be found in the [wiki](https://github.com/jobisoft/EAS-4-TbSync/wiki/About:-Provider-for-Exchange-ActiveSync) of this repository
