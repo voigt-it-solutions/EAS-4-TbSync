@@ -47,6 +47,10 @@ jobs:
           fi
 
       - name: Test
+        # Some upstream tests assume the maintainer's timezone and fail under
+        # the runner's UTC even on the unmodified release.
+        env:
+          TZ: Europe/Berlin
         # One upstream unit test fails on the unmodified 5.3.11 release too
         # (reminder-ack). Skipped by its exact name, so any new failure still
         # stops the release.
